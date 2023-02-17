@@ -7,8 +7,8 @@ describe('Test Sort Table', () => {
     })
 
     it('Sort Table by Due and get value of row two', () => {
-        sortableDataTables.sortTable()
-        
+        sortableDataTables.sortTableDescending('Due')
+        sortableDataTables.findValueinRow(2,3,'$51.00')
     });
     
 });

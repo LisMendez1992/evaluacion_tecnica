@@ -1,0 +1,9 @@
+
+
+# Dependency directories
+node_modules/
+
+
+# from driver
+packages/driver/cypress/videos
+packages/driver/cypress/screenshots

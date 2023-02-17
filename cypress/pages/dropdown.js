@@ -4,6 +4,7 @@ class DropdownPage {
         selectedDropdown: () => cy.get("select#dropdown option:selected"),
     };
 
+    //Select one of the dropdown values ​​and validate that it has been selected and the text is as expected
     selectValue(value, text) {
         this.dropdown
             .slDropdown()
